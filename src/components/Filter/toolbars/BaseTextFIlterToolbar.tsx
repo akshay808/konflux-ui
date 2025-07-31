@@ -5,7 +5,7 @@ import { debounce } from 'lodash-es';
 type BaseTextFilterToolbarProps = {
   text: string;
   label: string;
-  setText: (text: string) => void;
+  setText: (string) => void;
   onClearFilters: () => void;
   children?: React.ReactNode;
   dataTest?: string;
